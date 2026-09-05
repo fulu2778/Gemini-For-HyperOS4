@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 圆角蓝色圆底 -->
+    <path
+        android:fillColor="#1A73E8"
+        android:pathData="M54,4 a50,50 0 1,0 0,100 a50,50 0 1,0 0,-100 z" />
+    <!-- 白色四芒星（Gemini 火花） -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,32 L60.2,47.8 L76,54 L60.2,60.2 L54,76 L47.8,60.2 L32,54 L47.8,47.8 Z" />
+    <!-- 星芒高光小点 -->
+    <path
+        android:fillColor="#D2E3FC"
+        android:pathData="M76,32 a3,3 0 1,0 0.001,0 z" />
+</vector>
