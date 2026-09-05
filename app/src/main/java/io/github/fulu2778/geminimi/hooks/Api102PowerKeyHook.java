@@ -1,5 +1,6 @@
 package io.github.fulu2778.geminimi.hooks;
 
+import android.annotation.SuppressLint;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -574,6 +575,8 @@ public final class Api102PowerKeyHook {
         }
     }
 
+    // 有意使用原始 flag 组合把 FlotyActivity 带到前台（system_server 环境，真机验证过）。
+    @SuppressLint("WrongConstant")
     private static boolean startFloatyActivity(XposedModule module, Context ctx) {
         try {
             Intent intent = new Intent();
